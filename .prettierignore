@@ -1,0 +1,3 @@
+src/client/net.d.ts
+src/server/net.d.ts
+**/*.luau

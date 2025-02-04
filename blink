@@ -1,0 +1,6 @@
+option ServerOutput = "src/server/net.luau"
+option ClientOutput = "src/client/net.luau"
+option TypesOutput = "src/shared/net.luau"
+option Casing = Camel
+option Typescript = true
+option PromiseLibrary = "game:GetService('ReplicatedStorage').rbxts_include.Promise"
