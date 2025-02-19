@@ -1,5 +1,5 @@
 import { Players } from "@rbxts/services";
-import { err } from "shared/log";
+import { err } from "shared/utils/log";
 
 export class Error {}
 

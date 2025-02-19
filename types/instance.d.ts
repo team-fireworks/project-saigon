@@ -22,3 +22,11 @@ interface InstanceConstructor {
 	new <T extends keyof CreatableInstances>(className: T, parent: Instance): CreatableInstances[T];
 	fromExisting: <T extends Instance>(existingInstance: T) => T;
 }
+
+interface DataModel extends Instance {
+	GetMechanicLib: BindableFunction;
+}
+
+interface ReplicatedStorage extends Instance {
+	Mechanics: Folder;
+}

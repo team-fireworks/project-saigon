@@ -2,7 +2,7 @@ import { Flamework } from "@flamework/core";
 import { ReplicatedStorage } from "@rbxts/services";
 import { panic } from "server/result";
 import { flameworkIgnited } from "shared/flamework";
-import { RobloxLogger, setDefaultLogger, trace } from "shared/log";
+import { RobloxLogger, setDefaultLogger, trace } from "shared/utils/log";
 
 setDefaultLogger(
 	new RobloxLogger({

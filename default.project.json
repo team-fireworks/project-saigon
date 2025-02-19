@@ -45,6 +45,9 @@
                     "Value": false
                 }
             }
+        },
+        "GetMechanicLib": {
+            "$className": "BindableFunction"
         }
     }
 }

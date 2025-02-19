@@ -1,6 +1,6 @@
 import { Flamework } from "@flamework/core";
 import { flameworkIgnited } from "shared/flamework";
-import { err, RobloxLogger, setDefaultLogger, trace } from "shared/log";
+import { err, RobloxLogger, setDefaultLogger, trace } from "shared/utils/log";
 
 setDefaultLogger(
 	new RobloxLogger({
